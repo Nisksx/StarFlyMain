@@ -1,0 +1,316 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Logo = Instance.new("ImageLabel")
+local Credits = Instance.new("TextLabel")
+local ComingsoonTextButton = Instance.new("TextButton")
+local ComingsoonTextButton_2 = Instance.new("TextButton")
+local ComingSoonTextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Scripts = Instance.new("Frame")
+local FlyTextButton = Instance.new("TextButton")
+local MurderMystery2TextButton = Instance.new("TextButton")
+local OwlHubTextButton = Instance.new("TextButton")
+local PrisonLifeTextButton = Instance.new("TextButton")
+local RagdollEngineTextButton = Instance.new("TextButton")
+local AdminTextButton = Instance.new("TextButton")
+local InjectTextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Main.Position = UDim2.new(0.0179806389, 0, 0.339066327, 0)
+Main.Size = UDim2.new(0, 625, 0, 332)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Title.Size = UDim2.new(0, 625, 0, 49)
+Title.Font = Enum.Font.LuckiestGuy
+Title.Text = "STAR FLY SCRIPT"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+
+Logo.Name = "Logo"
+Logo.Parent = Main
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Logo.Position = UDim2.new(0, 0, 0.00471698493, 0)
+Logo.Size = UDim2.new(0, 46, 0, 47)
+Logo.Image = "http://www.roblox.com/asset/?id=6947980797"
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.0354609936, 0, 0.896340072, 0)
+Credits.Size = UDim2.new(0, 110, 0, 44)
+Credits.Font = Enum.Font.Merriweather
+Credits.Text = "Made by FunkyTombay"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 14.000
+
+ComingsoonTextButton.Name = "ComingsoonTextButton"
+ComingsoonTextButton.Parent = Main
+ComingsoonTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ComingsoonTextButton.Position = UDim2.new(0.0148357209, 0, 0.701952815, 0)
+ComingsoonTextButton.Size = UDim2.new(0, 190, 0, 51)
+ComingsoonTextButton.Font = Enum.Font.LuckiestGuy
+ComingsoonTextButton.Text = "Coming Soon"
+ComingsoonTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingsoonTextButton.TextSize = 14.000
+
+ComingsoonTextButton_2.Name = "ComingsoonTextButton"
+ComingsoonTextButton_2.Parent = Main
+ComingsoonTextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ComingsoonTextButton_2.Position = UDim2.new(0.347635716, 0, 0.701952815, 0)
+ComingsoonTextButton_2.Size = UDim2.new(0, 190, 0, 51)
+ComingsoonTextButton_2.Font = Enum.Font.LuckiestGuy
+ComingsoonTextButton_2.Text = "Coming Soon"
+ComingsoonTextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingsoonTextButton_2.TextSize = 14.000
+
+ComingSoonTextButton.Name = "ComingSoonTextButton"
+ComingSoonTextButton.Parent = Main
+ComingSoonTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ComingSoonTextButton.Position = UDim2.new(0.680435777, 0, 0.701952815, 0)
+ComingSoonTextButton.Size = UDim2.new(0, 190, 0, 51)
+ComingSoonTextButton.Font = Enum.Font.LuckiestGuy
+ComingSoonTextButton.Text = "Coming Soon"
+ComingSoonTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoonTextButton.TextSize = 14.000
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.318835706, 0, 0.340361446, 0)
+TextLabel.Size = UDim2.new(0, 425, 0, 51)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "______________________________________________________________________"
+TextLabel.TextColor3 = Color3.fromRGB(255, 170, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.000435709953, 0, 0.340361446, 0)
+TextLabel_2.Size = UDim2.new(0, 425, 0, 51)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "______________________________________________________________________"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 170, 255)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Main
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.Position = UDim2.new(0, 0, 0.1746988, 0)
+Scripts.Size = UDim2.new(0, 625, 0, 239)
+Scripts.Visible = false
+
+FlyTextButton.Name = "Fly TextButton"
+FlyTextButton.Parent = Scripts
+FlyTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyTextButton.Position = UDim2.new(0.0137510393, 0, 0.104101889, 0)
+FlyTextButton.Size = UDim2.new(0, 190, 0, 51)
+FlyTextButton.Font = Enum.Font.LuckiestGuy
+FlyTextButton.Text = "FLY"
+FlyTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyTextButton.TextSize = 14.000
+FlyTextButton.TextWrapped = true
+FlyTextButton.MouseButton1Down:connect(function()
+	repeat wait()
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer
+	local torso = plr.Character.Torso
+	local flying = true
+	local deb = true
+	local ctrl = {f = 0, b = 0, l = 0, r = 0}
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+	local maxspeed = 50
+	local speed = 0
+
+	function Fly()
+		local bg = Instance.new("BodyGyro", torso)
+		bg.P = 9e4
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		bg.cframe = torso.CFrame
+		local bv = Instance.new("BodyVelocity", torso)
+		bv.velocity = Vector3.new(0,0.1,0)
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+		repeat wait()
+			plr.Character.Humanoid.PlatformStand = true
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+				speed = speed+.5+(speed/maxspeed)
+				if speed > maxspeed then
+					speed = maxspeed
+				end
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+				speed = speed-1
+				if speed < 0 then
+					speed = 0
+				end
+			end
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+			else
+				bv.velocity = Vector3.new(0,0.1,0)
+			end
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+		until not flying
+		ctrl = {f = 0, b = 0, l = 0, r = 0}
+		lastctrl = {f = 0, b = 0, l = 0, r = 0}
+		speed = 0
+		bg:Destroy()
+		bv:Destroy()
+		plr.Character.Humanoid.PlatformStand = false
+	end
+	mouse.KeyDown:connect(function(key)
+		if key:lower() == "e" then
+			if flying then flying = false
+			else
+				flying = true
+				Fly()
+			end
+		elseif key:lower() == "w" then
+			ctrl.f = 1
+		elseif key:lower() == "s" then
+			ctrl.b = -1
+		elseif key:lower() == "a" then
+			ctrl.l = -1
+		elseif key:lower() == "d" then
+			ctrl.r = 1
+		end
+	end)
+	mouse.KeyUp:connect(function(key)
+		if key:lower() == "w" then
+			ctrl.f = 0
+		elseif key:lower() == "s" then
+			ctrl.b = 0
+		elseif key:lower() == "a" then
+			ctrl.l = 0
+		elseif key:lower() == "d" then
+			ctrl.r = 0
+		end
+	end)
+	Fly()
+end)
+
+MurderMystery2TextButton.Name = "MurderMystery2TextButton"
+MurderMystery2TextButton.Parent = Scripts
+MurderMystery2TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MurderMystery2TextButton.Position = UDim2.new(0.347635716, 0, 0.494121522, 0)
+MurderMystery2TextButton.Size = UDim2.new(0, 190, 0, 51)
+MurderMystery2TextButton.Font = Enum.Font.LuckiestGuy
+MurderMystery2TextButton.Text = "Murder Mystery 2"
+MurderMystery2TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+MurderMystery2TextButton.TextSize = 14.000
+MurderMystery2TextButton.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+OwlHubTextButton.Name = "OwlHubTextButton"
+OwlHubTextButton.Parent = Scripts
+OwlHubTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHubTextButton.Position = UDim2.new(0.680305004, 0, 0.101698272, 0)
+OwlHubTextButton.Size = UDim2.new(0, 190, 0, 51)
+OwlHubTextButton.Font = Enum.Font.LuckiestGuy
+OwlHubTextButton.Text = "Owl Hub"
+OwlHubTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OwlHubTextButton.TextSize = 14.000
+OwlHubTextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+PrisonLifeTextButton.Name = "PrisonLifeTextButton"
+PrisonLifeTextButton.Parent = Scripts
+PrisonLifeTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLifeTextButton.Position = UDim2.new(0.01483572, 0, 0.494121522, 0)
+PrisonLifeTextButton.Size = UDim2.new(0, 190, 0, 51)
+PrisonLifeTextButton.Font = Enum.Font.LuckiestGuy
+PrisonLifeTextButton.Text = "Prison Life"
+PrisonLifeTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLifeTextButton.TextSize = 14.000
+PrisonLifeTextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+end)
+
+RagdollEngineTextButton.Name = "RagdollEngineTextButton"
+RagdollEngineTextButton.Parent = Scripts
+RagdollEngineTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RagdollEngineTextButton.Position = UDim2.new(0.680435777, 0, 0.494121522, 0)
+RagdollEngineTextButton.Size = UDim2.new(0, 190, 0, 51)
+RagdollEngineTextButton.Font = Enum.Font.LuckiestGuy
+RagdollEngineTextButton.Text = "Ragdoll Engine"
+RagdollEngineTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+RagdollEngineTextButton.TextSize = 14.000
+RagdollEngineTextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua'),true))()
+end)
+
+AdminTextButton.Name = "Admin TextButton"
+AdminTextButton.Parent = Scripts
+AdminTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminTextButton.Position = UDim2.new(0, 217, 0, 26)
+AdminTextButton.Size = UDim2.new(0, 190, 0, 51)
+AdminTextButton.Font = Enum.Font.LuckiestGuy
+AdminTextButton.Text = "ADMIN"
+AdminTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdminTextButton.TextSize = 14.000
+AdminTextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+InjectTextButton.Name = "InjectTextButton"
+InjectTextButton.Parent = Main
+InjectTextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InjectTextButton.Position = UDim2.new(0.77200067, 0, 0.00388401747, 0)
+InjectTextButton.Size = UDim2.new(0, 142, 0, 33)
+InjectTextButton.Style = Enum.ButtonStyle.RobloxRoundButton
+InjectTextButton.Font = Enum.Font.SourceSans
+InjectTextButton.Text = "ATTACH"
+InjectTextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+InjectTextButton.TextSize = 14.000
+InjectTextButton.MouseButton1Down:connect(function()
+	print("Injected!")
+	Title.Text = "STAR FLY SCRIPT, Attaching."
+	wait(2)
+	Title.Text = "STAR FLY SCRIPT, Attaching.."
+	wait(2)
+	Title.Text = "STAR FLY SCRIPT, Attaching."
+	wait(2)
+	Title.Text = "STAR FLY SCRIPT, Attached!"
+	wait(2)
+	Title.Text = "STAR FLY SCRIPT"
+	Scripts.Visible = true
+end)
+
+-- Scripts:
+
+local function JUQKC_fake_script() -- ScreenGui.Script 
+	local script = Instance.new('Script', ScreenGui)
+
+	Main = script.Parent.Main
+	Main.Draggable = true
+	Main.Active = true
+	Main.Selectable = true
+end
+coroutine.wrap(JUQKC_fake_script)()
